@@ -5,4 +5,4 @@ sudo: required
 services:
     - docker
 
-script: "cd Aservice && docker build" 
+script: "cd Aservice && docker build ." 
