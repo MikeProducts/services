@@ -1,7 +1,8 @@
-language: generic
+languge: generic
 
-matrix:
-    include:
-        - env: PROJECT=Aservice
-        - env: PROJECT=Bservice
+sudo: required
 
+services:
+    - docker
+
+script: echo "hello"
