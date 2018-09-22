@@ -1,0 +1,7 @@
+language: generic
+
+matrix:
+    include:
+        - env: PROJECT=Aservice
+        - env: PROJECT=Bservice
+
