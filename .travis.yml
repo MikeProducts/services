@@ -5,4 +5,4 @@ sudo: required
 services:
     - docker
 
-script: find . -mindepth 1 -not -path '*/\.*' -type d -exec bash -c "cd {} && docker build ." \;
+script: find . -mindepth 1 -quit -not -path '*/\.*' -type d -exec bash -c "cd {} && docker build ." \;
